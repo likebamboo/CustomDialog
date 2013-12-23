@@ -16,7 +16,7 @@ CustomDialog
 ![效果图](http://github.com/likebamboo/CustomDialog/raw/master/images/20131223093543.jpg)
 
 
-
+（项目资源有点多，如果是简单的alertDialog，请使用车况宝那个项目中的）。
 参考项目：
 http://www.open-open.com/lib/view/open1335576985577.html
 
