@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/custom_progress_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showProgressDialog"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/custom_progress_dialog" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showAlertDialogTips"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/custom_alert_dialog_tips" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showAlertDialogRadio"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/custom_alert_dialog_singChoice" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showAlertDialogCheckBox"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/custom_alert_dialog_multiChoice" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showAlertDialogList"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/custom_alert_dialog_list" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">CustomProgressDialog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="_loading">正在加载数据。。。</string>
+    <string name="custom_progress_dialog">ProgressDialog</string>
+    <string name="tips">提示</string>
+    <string name="message">这是我的一个自定义的AlertDialog</string>
+    <string name="custom_alert_dialog_tips">AlertDialog-提示</string>
+    <string name="custom_alert_dialog_singChoice">AlertDialog-单选</string>
+    <string name="custom_alert_dialog_multiChoice">AlertDialog-复选</string>
+    <string name="custom_alert_dialog_list">AlertDialog-列表</string>
+
+</resources>

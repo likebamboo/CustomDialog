@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="CustomProgressDialog" parent="@android:style/Theme.Dialog">
+
+        <!-- 无遮盖 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 无边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景半透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 浮动 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 背景模糊度 -->
+        <item name="android:backgroundDimAmount">0.05</item>
+    </style>
+
+    <style name="DialogWindowTitle">
+        <!-- 标题只有一行 -->
+        <item name="android:maxLines">1</item>
+        <!-- 水平滚动 -->
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+    </style>
+
+    <style name="CustomAlertDialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 对话框无遮盖 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 背景阴影 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 对话框标题的样式 -->
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+    </style>
+
+</resources>
